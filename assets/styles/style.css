@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@100;300;700;800;900&family=Poppins:wght@200;300;400;500;700&family=Roboto:ital,wght@0,300;0,900;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+}
+
+.headerContainer {
+    background-color: #ffffff;
+    width: 100%;
+    height:170px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;   
+    border-bottom: 2 px #3e9e66;
+   
+}
+
+
+.nombre {  
+    text-align: center;
+    padding-left: 20px;   
+}
+.siglas {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2rem;
+    -webkit-text-fill-color: #3e9e66;   
+ 
+
+}
+.titulo {
+    font-family:'Istock Web', sans-serif;
+    color:#393E46 ;
+}
+
+.logoImg {
+    height: 160px;
+    align-items: center;
+    padding-left: 200px;
+    
+}
+
+nav {    
+    height: 50px;
+    background-color: #ffffff; 
+    
+  }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    
+  }
+
+a {
+    text-decoration: none;
+    color: #393E46;
+    font-family: 'Istock Web', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    
+  }
+
+  a:hover {
+    color:#3e9e66;
+  }
+  
+.letrasPrincipales{
+    display: flex;
+    width: 80px;
+    padding-left:50px;
+    padding-top: 70px;
+    
+
+}
+.subtitulo{
+    width: 100%;
+    display:flex;    
+    align-self: flex-end;
+    justify-content: left;    
+    padding-bottom: 20px;
+    
+
+}
+
+.subtituloTexto {
+    font-family: 'Outfit', sans-serif;     
+    font-size:70px;
+    font-weight: 800;
+    color: #eeeeeef1;
+    text-shadow: black 3px 2px 3px;
+
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 6rem;
+    font-weight: 900;
+    color: #393E46;
+        
+}
+
+
+#inicio {
+    
+    display: flex;    
+    background-image: url(../img/img_Inicio.png); 
+    height:700px;
+    background-position: center; 
+    background-repeat: no-repeat;   
+    background-size: cover;
+    justify-content: left;
+    align-items:self-start;
+    gap: 10px;
+    margin-bottom: 50px;
+    
+}
+
+#nosotros{
+    width: 80%;   
+    border: 2px solid red;    
+    color:#393E46;   
+    font-family: 'Outfit', sans-serif;
+    font-weight:900;
+    font-size: 4rem;
+    display:flex;
+    justify-content: center;          
+    padding-left:25px ;
+    height: 500px;
+    margin: 0 auto;
+  
+    
+    
+
+}
+.nosotrosTexto{
+    width: 600px;
+    padding-left:30px;
+}
+.nosotrosImg {
+    width: 100%;
+   
+
+}
+
+
+.cajas{
+    display: flex;
+    width: 80%;   
+    padding-top:0;     
+    margin-bottom:30px; 
+    text-align: center;
+    margin: 0 auto;    
+    
+}
+.caja {
+    flex: 1;      
+    background-color: #C4FB6D;
+    padding-bottom:20px;
+    padding-inline:20px;
+    margin:20px; 
+    margin-bottom: 0;       
+    
+}
+
+.cajaTexto {
+    font-family: 'Outfit', sans-serif;
+    font-size:25px;
+    font-weight: 400;
+}
+    
+
+.servicios {
+    background-image: url(../img/shutterstock_2160266215.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;   
+    background-size: cover;
+    max-width: 100%;    
+    height:350px;
+    color:rgb(230, 233, 238);   
+    font-family: 'Outfit', sans-serif;
+    font-weight:900;
+    font-size: 4rem;
+    display: flex;
+    
+}
+.serviciosTexto {
+    display:flex;   
+    margin: auto;   
+    width: 600px;
+    padding-left:30px;
+    text-shadow:  2px 4px rgb(126, 189, 129);
+
+}
+
+.serviciosContenido {
+    
+    display:flex;    
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-image: url(../img/shutterstock_2281284523.svg);
+    max-width: 100%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    
+}
+  
+
+
+
+.serviciosDescripcion{
+    
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    height:500px;
+    line-height: 2rem;
+
+      
+} 
+.serviciosDescripcion h3 {
+    color:#3e9e66;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px #c2bdbd;
+    
+}
+
+.serviciosDescripcion p {
+    font-size: 1rem;
+    line-height: 70px;
+    font-weight: 500;
+    color:#000000;
+    text-align: left;
+
+}
+  
+
+.volver  {
+    text-align: center;
+    padding-top: 2px;
+    height: 40px;
+}
+
+.soluciones {
+    display: flex;    
+    background-image: url(../img/shutterstock_1913774392.svg);
+    width: 80%;
+}
+
+
+.solucionesTexto {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-weight:900;
+    font-size: 4rem;
+}
