@@ -254,7 +254,7 @@ h1 {
 .volver  {
     text-align: center;
     padding: 15px;
-    height: 40px;
+    
 }
 
 #soluciones {
@@ -264,8 +264,7 @@ h1 {
     height: 99vh;
     padding-top: 200px;
     width: 80%;  
-   
-    
+      
 }
 
 
@@ -305,7 +304,7 @@ h1 {
 }
 
 #contacto h2 {
-    height: 100vh;
+    
     display:flex;   
     margin: auto;   
     width: 600px;
@@ -328,6 +327,9 @@ h1 {
     color: #393E46;
 
 }
+.contactoBox {
+    height: 30vh;
+}
 
 .whatsapp{
     display: flex;
@@ -345,3 +347,31 @@ h1 {
     background-color: #3e9e66;
     border-radius: 3px;
 }
+
+
+.contenedorFooter{
+    height: 200px;
+    background-color: #76EAD7;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.redes i {
+    font-size: 30px; /* Ajusta el tamaño según tus necesidades */
+    margin: 0 10px; /* Ajusta el espacio entre los iconos si es necesario */
+  }
+
+  .copyright {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #666; /* Cambia el color según tu paleta de colores */
+    margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
+    position: absolute; /* Añadido para posicionar de forma absoluta */
+    bottom: 0; /* Coloca el aviso en la parte inferior del contenedor */
+    left: 50%; /* Coloca el aviso en el centro horizontalmente */
+    transform: translateX(-50%); /* Ajusta para centrar completamente */
+  }
+  
