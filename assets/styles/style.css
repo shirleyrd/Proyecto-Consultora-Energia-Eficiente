@@ -277,7 +277,7 @@ h1 {
 
 }
 .solucionesItems {
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 500; 
     line-height: 90px;
     font-family:'Roboto', sans-serif;
@@ -374,4 +374,14 @@ h1 {
     transform: translateX(-50%); /* Ajusta para centrar completamente */
   }
   
+ /** media queries**/
+
+ @media screen and (max-width: 480px) {
+
+    header {
+        flex-direction: column;
+    }
+
+ }
+
  
