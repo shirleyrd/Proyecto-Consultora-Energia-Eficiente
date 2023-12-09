@@ -119,7 +119,7 @@ h1 {
     
     display: flex;    
     background-image: url(../img/img_Inicio.png); 
-    height:700px;
+    height:80vh;
     background-position: center; 
     background-repeat: no-repeat;   
     background-size: cover;
@@ -258,10 +258,9 @@ h1 {
 }
 
 #soluciones {
-    display: flex;
-    justify-content: space-around;    
+    display: flex;     
     margin: 0 auto;     
-    height: 99vh;
+    height: 100vh;
     padding-top: 200px;
     width: 80%;  
       
@@ -375,3 +374,4 @@ h1 {
     transform: translateX(-50%); /* Ajusta para centrar completamente */
   }
   
+ 
