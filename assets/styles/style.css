@@ -6,8 +6,9 @@
     box-sizing: border-box;
 }
 
+
 body {
-    max-width: 100%;
+    background-image: url(../img/shutterstock_2281284523.svg);
 }
 
 .headerContainer {
@@ -19,6 +20,7 @@ body {
     align-items: center;
     padding-top: 20px;   
     border-bottom: 2 px #3e9e66;
+    
    
 }
 
@@ -129,8 +131,8 @@ h1 {
 }
 
 #nosotros{
-    width: 80%;   
-    border: 2px solid red;    
+    width: 80%;
+    height: 100vh;       
     color:#393E46;   
     font-family: 'Outfit', sans-serif;
     font-weight:900;
@@ -140,6 +142,8 @@ h1 {
     padding-left:25px ;
     height: 500px;
     margin: 0 auto;
+    text-shadow:  2px 4px rgb(126, 189, 129);
+
   
     
     
@@ -150,8 +154,7 @@ h1 {
     padding-left:30px;
 }
 .nosotrosImg {
-    width: 100%;
-   
+    width: 100%;  
 
 }
 
@@ -195,6 +198,7 @@ h1 {
     font-size: 4rem;
     display: flex;
     
+    
 }
 .serviciosTexto {
     display:flex;   
@@ -211,10 +215,8 @@ h1 {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    padding-top: 50px;
-    background-image: url(../img/shutterstock_2281284523.svg);
-    max-width: 100%;
-    margin-bottom: 40px;
+    padding-top: 50px;    
+    max-width: 100%;    
     border-radius: 10px;
     padding-bottom: 20px;
     
@@ -251,20 +253,95 @@ h1 {
 
 .volver  {
     text-align: center;
-    padding-top: 2px;
+    padding: 15px;
     height: 40px;
 }
 
-.soluciones {
-    display: flex;    
-    background-image: url(../img/shutterstock_1913774392.svg);
-    width: 80%;
+#soluciones {
+    display: flex;
+    justify-content: space-around;    
+    margin: 0 auto;     
+    height: 99vh;
+    padding-top: 200px;
+    width: 80%;  
+   
+    
 }
 
 
 .solucionesTexto {
+    font-family:  'Outfit', sans-serif;
+    font-size: 5rem;
+    color:#393E46; 
+    padding-top:20px;
+    padding-bottom: 25px;
+    text-shadow:  2px 4px rgb(126, 189, 129);
+
+}
+.solucionesItems {
+    font-size: 24px;
+    font-weight: 500; 
+    line-height: 90px;
+    font-family:'Roboto', sans-serif;
+    color:#393E46; 
+
+}
+
+
+#contacto {
+    background-image: url(../img/shutterstock_2160266215.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;   
+    background-size: cover;
+    max-width: 100%;    
+    height:350px;
+    color:rgb(230, 233, 238);   
     font-family: 'Outfit', sans-serif;
-    text-align: center;
     font-weight:900;
     font-size: 4rem;
+   
+    
+    
+}
+
+#contacto h2 {
+    height: 100vh;
+    display:flex;   
+    margin: auto;   
+    width: 600px;
+    padding-left:30px;
+    padding-top: 90px;
+    text-shadow:  2px 4px rgb(126, 189, 129);
+    
+}
+
+.contactoDescripcion{
+    display: flex;
+    justify-content: center;
+    
+}
+.contactoDescripcion p {
+    font-family:'Roboto', sans-serif;
+    font-weight: 600; 
+    font-size: 24px;
+    padding: 50px;
+    color: #393E46;
+
+}
+
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;    
+    text-align: center;
+}
+
+
+.whatsapp-button {
+    height: 70px;
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    background-color: #3e9e66;
+    border-radius: 3px;
 }
