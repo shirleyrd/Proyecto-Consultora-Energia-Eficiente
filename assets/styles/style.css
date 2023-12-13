@@ -395,9 +395,38 @@ h1 {
         padding-left: 25px;
     }
     
+    nav {
+        display: flex;
+    }
     .navItem a {
         font-size: 15px;
     }
+
+    #inicio {
+        flex-direction: column;
+        background-size:contain;
+        height:fit-content;
+
+        
+        
+    }
+   .letrasPrincipales{
+      width:50%;
+   }
+    .letrasPrincipales h1 {
+        font-size: 50px;
+        
+    }
+
+    .subtitulo p {
+        font-size: 30px;
+        padding-left: 20px;
+
+    }
+
+    
+
+
 
     }
 
