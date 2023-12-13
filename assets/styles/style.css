@@ -395,6 +395,9 @@ h1 {
         padding-left: 25px;
     }
     
+    .navItem a {
+        font-size: 15px;
+    }
 
     }
 
