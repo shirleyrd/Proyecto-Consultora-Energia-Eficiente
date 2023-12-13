@@ -424,6 +424,26 @@ h1 {
 
     }
 
+
+    #nosotros {
+        flex-direction: column;
+    }
+
+    .cajas {
+        flex-direction: column;
+    }
+
+    .serviciosContenido {
+        flex-direction: column;
+    }
+
+    .serviciosDescripcion {
+        width: 560px;
+        height:fit-content;
+    }
+
+
+
     
 
 
@@ -432,5 +452,40 @@ h1 {
 
     
  
+@media screen and (max-width: 390px) {
 
+    #inicio {
+        background-size:cover;
+        height: 180px;
+      
+    }
+    .navItem a {
+        font-size: 10px;
+        
+    }
+
+    .letrasPrincipales {
+        padding: 10px;
+    }
+
+    .letrasPrincipales h1 {
+        font-size: 28px;
+        
+        
+    }
+
+    .subtitulo {
+       padding: 0;
+    }
+
+    .subtitulo p {
+        font-size: 17px;
+    }
+
+  
+
+    .nosotrosTexto h2 {
+        font-size: 40px;
+    }
+}
  
