@@ -382,16 +382,17 @@ h1 {
         flex-direction: column;
         justify-content: center;
         height:500px;
+        padding: 0;       
          
              
        
     }
-    .nombre {
-        font-size: 25px;
-       
+   
+     .siglas {
+        font-size:35px;
     }
     .titulo {
-        font-size:25px;
+        font-size: 25px;
     }
     .logoImg {
         padding-left: 25px;
@@ -406,10 +407,11 @@ h1 {
     nav ul {
         display: flex;
         flex-direction: column;
+        line-height: 1.7rem;
        
     }
     .navItem a {
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
         
         
