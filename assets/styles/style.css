@@ -9,6 +9,7 @@
 
 body {
     background-image: url(../img/shutterstock_2281284523.svg);
+    width: 100%;
 }
 
 .headerContainer {
@@ -302,9 +303,8 @@ h1 {
     
 }
 
-#contacto h2 {
+#contacto h2 {   
     
-    display:flex;   
     margin: auto;   
     width: 600px;
     padding-left:30px;
@@ -381,26 +381,40 @@ h1 {
     #header {
         flex-direction: column;
         justify-content: center;
-        height:fit-content;       
+        height:500px;
+         
+             
        
     }
     .nombre {
-        font-size: 15px;
+        font-size: 25px;
        
     }
     .titulo {
-        font-size:15px;
+        font-size:25px;
     }
     .logoImg {
         padding-left: 25px;
+        
     }
     
     nav {
         display: flex;
+        
+        
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+       
     }
     .navItem a {
         font-size: 15px;
+        text-align: center;
+        
+        
     }
+    
 
     #inicio {
         flex-direction: column;        
@@ -515,7 +529,7 @@ h1 {
         flex-direction: column;
         padding-top:100px;
         width: 90%;
-        height:fit-content;
+        height:auto;
     }
 
     #soluciones h2 {
@@ -541,9 +555,23 @@ h1 {
        }
        #contacto {
         width: 100%;        
-        font-size: 40px;
-        text-align: center;
+        justify-content: center;
+           
+              
         
+       }
+       .contactoTexto {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        
+       }
+       .contactoTexto h2 {
+        font-size: 40px;
+
+       }
+        
+         
        }
        .whatsapp {
         margin-bottom: 200px;
@@ -557,4 +585,4 @@ h1 {
        
 
       
-   }
+   
