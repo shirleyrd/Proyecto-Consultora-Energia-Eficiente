@@ -375,6 +375,39 @@ h1 {
   }
   
  /** media queries**/
+ @media screen and (min-width: 1239px) and (max-width: 1430px) {
+
+    .navItem a {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+
+    .logoImg {
+        padding-left: 73px;
+    }
+
+    #inicio {
+        background-size: contain;
+        height: 40vh;
+        
+       
+        
+    }
+
+
+
+    .subtitulo p {
+        font-size: 60px;
+    }
+    
+    
+}
+
+
+
+
+/**Tablet**/
 
  @media screen and (max-width: 768px) {
 
