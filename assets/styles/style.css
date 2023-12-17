@@ -197,7 +197,7 @@ h1 {
 .serviciosDescripcion {
   font-family: "Roboto", sans-serif;
   text-align: justify;
-  height: 500px;
+  height: 800px;
   line-height: 2rem;
 }
 .serviciosDescripcion h3 {
@@ -335,14 +335,18 @@ h1 {
   transform: translateX(-50%); /* Ajusta para centrar completamente */
 }
 
-/** media queries**
+/** media queries**/
 
- @media screen and (min-width: 1024px) and (max-width: 1440px) {}
+ @media screen and (min-width: 1024px) and (max-width: 1250px) {
  
 
   #inicio {
-    max-width: 100%;
-    
+    object-fit: cover; 
+    object-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
   }
    
     .navItem a {
@@ -389,12 +393,30 @@ h1 {
         
 
     }
+    .servicioContenido {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .serviciosDescripcion {
+      
+       margin-inline: 25px;
+       padding-inline: 25px;
+       
+      
+    }
 
 
+
+
+
+}
 
 
 
 /**Tablet**/
+
+
 
 @media screen and (max-width: 768px) {
   #header {
