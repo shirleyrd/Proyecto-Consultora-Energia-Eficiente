@@ -1,401 +1,340 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@100;300;700;800;900&family=Poppins:wght@200;300;400;500;700&family=Roboto:ital,wght@0,300;0,900;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@100;300;700;800;900&family=Poppins:wght@200;300;400;500;700&family=Roboto:ital,wght@0,300;0,900;1,400;1,500&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
 body {
-    background-image: url(../img/shutterstock_2281284523.svg);
-    width: 100%;
+  background-image: url(../img/shutterstock_2281284523.svg);
+  width: 100%;
 }
 
 .headerContainer {
-    background-color: #ffffff;
-    width: 100%;
-    height:170px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;   
-    border-bottom: 2 px #3e9e66;
-    
-   
+  background-color: #ffffff;
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
 }
 
-
-.nombre {  
-    text-align: center;
-    padding-left: 20px;   
+.nombre {
+  text-align: center;
+  padding-left: 20px;
 }
 .siglas {
-    font-family: 'Outfit', sans-serif;
-    font-size: 2rem;
-    -webkit-text-fill-color: #3e9e66;   
- 
-
+  font-family: "Outfit", sans-serif;
+  font-size: 2rem;
+  -webkit-text-fill-color: #3e9e66;
 }
 .titulo {
-    font-family:'Istock Web', sans-serif;
-    color:#393E46 ;
+  font-family: "Istock Web", sans-serif;
+  color: #393e46;
 }
 
 .logotipo {
-    width: fit-content;
+  width: fit-content;
 }
 .logoImg {
-    height: 160px;
-    align-items: center;
-    padding-left: 200px;
-    
+  height: 160px;
+  align-items: center;
+  padding-left: 200px;
 }
 
-nav {    
-    height: 50px;
-    background-color: #ffffff; 
-    
-  }
+nav {
+  height: 50px;
+  background-color: #ffffff;
+}
 
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
 li {
-    display: inline-block;
-    margin-right: 20px;
-    
-  }
+  display: inline-block;
+  margin-right: 20px;
+}
 
 a {
-    text-decoration: none;
-    color: #393E46;
-    font-family: 'Istock Web', sans-serif;
-    font-weight: 600;
-    font-size: 1.2rem;
-    
-  }
-
-  a:hover {
-    color:#3e9e66;
-  }
-  
-.letrasPrincipales{
-    display: flex;
-    width: 80px;
-    padding-left:50px;
-    padding-top: 70px;
-    
-
+  text-decoration: none;
+  color: #393e46;
+  font-family: "Istock Web", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
-.subtitulo{
-    width: 100%;
-    display:flex;    
-    align-self: flex-end;
-    justify-content: left;    
-    padding-bottom: 20px;
-    
 
+a:hover {
+  color: #3e9e66;
+}
+
+.letrasPrincipales {
+  display: flex;
+  width: 80px;
+  padding-left: 50px;
+  padding-top: 70px;
+}
+.subtitulo {
+  width: 100%;
+  display: flex;
+  align-self: flex-end;
+  justify-content: left;
+  padding-bottom: 20px;
 }
 
 .subtituloTexto {
-    font-family: 'Outfit', sans-serif;     
-    font-size:80px;
-    font-weight: 800;
-    color: #eeeeeef1;
-    text-shadow: black 3px 2px 3px;
-
+  font-family: "Outfit", sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  color: #eeeeeef1;
+  text-shadow: black 3px 2px 3px;
 }
 
 h1 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 6rem;
-    font-weight: 900;
-    color: #393E46;
-        
+  font-family: "Outfit", sans-serif;
+  font-size: 6rem;
+  font-weight: 900;
+  color: #393e46;
 }
-
 
 #inicio {
-    
-    display: flex;    
-    background-image: url(../img/img_Inicio.png); 
-    height:80vh;
-    background-position: center; 
-    background-repeat: no-repeat;   
-    background-size: cover;
-    justify-content: left;
-    align-items:self-start;
-    gap: 10px;
-    margin-bottom: 50px;
-    
+  display: flex;
+  background-image: url(../img/img_Inicio.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: left;
+  align-items: self-start;
+  gap: 10px;
+  margin-bottom: 50px;
 }
 
-#nosotros{
-    width: 80%;
-    height: 100vh;       
-    color:#393E46;   
-    font-family: 'Outfit', sans-serif;
-    font-weight:900;
-    font-size: 4rem;
-    display:flex;
-    justify-content: center;          
-    padding-left:25px ;
-    height: 500px;
-    margin: 0 auto;
-    text-shadow:  2px 4px rgb(126, 189, 129);
-
-  
-    
-    
-
+#nosotros {
+  width: 80%;
+  height: 100vh;
+  color: #393e46;
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  padding-left: 25px;
+  height: 500px;
+  margin: 0 auto;
+  text-shadow: 2px 4px rgb(126, 189, 129);
 }
-.nosotrosTexto{
-    width: 600px;
-    padding-left:30px;
+.nosotrosTexto {
+  width: 600px;
+  padding-left: 30px;
 }
 .nosotrosImg {
-    width: 100%;  
-
+  width: 100%;
 }
 
-
-.cajas{
-    display: flex;
-    width: 80%;   
-    padding-top:0;     
-    margin-bottom:30px; 
-    text-align: center;
-    margin: 0 auto;    
-    
+.cajas {
+  display: flex;
+  width: 80%;
+  padding-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  margin: 0 auto;
 }
 .caja {
-    flex: 1;      
-    background-color: #C4FB6D;
-    padding-bottom:20px;
-    padding-inline:20px;
-    margin:20px; 
-    margin-bottom: 0;       
-    
+  flex: 1;
+  background-color: #c4fb6d;
+  padding-bottom: 20px;
+  padding-inline: 20px;
+  margin: 20px;
+  margin-bottom: 0;
 }
 
 .cajaTexto {
-    font-family: 'Outfit', sans-serif;
-    font-size:25px;
-    font-weight: 400;
+  font-family: "Outfit", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
 }
-    
 
 .servicios {
-    background-image: url(../img/shutterstock_2160266215.jpg);
-    background-position: center; 
-    background-repeat: no-repeat;   
-    background-size: cover;
-    max-width: 100%;    
-    height:350px;
-    color:rgb(230, 233, 238);   
-    font-family: 'Outfit', sans-serif;
-    font-weight:900;
-    font-size: 4rem;
-    display: flex;
-    
-    
+  background-image: url(../img/shutterstock_2160266215.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 350px;
+  color: rgb(230, 233, 238);
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  display: flex;
 }
 .serviciosTexto {
-    display:flex;   
-    margin: auto;   
-    width: 600px;
-    padding-left:30px;
-    text-shadow:  2px 4px rgb(126, 189, 129);
-
+  display: flex;
+  margin: auto;
+  width: 600px;
+  padding-left: 30px;
+  text-shadow: 2px 4px rgb(126, 189, 129);
 }
 
 .serviciosContenido {
-    
-    display:flex;    
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-    padding-top: 50px;    
-    max-width: 100%;    
-    border-radius: 10px;
-    padding-bottom: 20px;
-    
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  max-width: 100%;
+  border-radius: 10px;
+  padding-bottom: 20px;
 }
-  
 
-
-
-.serviciosDescripcion{
-    
-    font-family: 'Roboto', sans-serif;
-    text-align: justify;
-    height:500px;
-    line-height: 2rem;
-
-      
-} 
+.serviciosDescripcion {
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  height: 500px;
+  line-height: 2rem;
+}
 .serviciosDescripcion h3 {
-    color:#3e9e66;
-    font-size: 1.5rem;
-    text-shadow: 1px 1px 3px #c2bdbd;
-    
+  color: #3e9e66;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 3px #c2bdbd;
 }
 
 .serviciosDescripcion p {
-    font-size: 1rem;
-    line-height: 70px;
-    font-weight: 500;
-    color:#000000;
-    text-align: left;
-
+  font-size: 1.3rem;
+  line-height: 70px;
+  font-weight: 500;
+  color: #000000;
+  text-align: left;
 }
-  
 
-.volver  {
-    text-align: center;
-    padding: 25px;
-    
+.volver {
+  text-align: center;
+  padding: 25px;
 }
 
 #soluciones {
-    display: flex;
-    flex-direction: column;      
-    margin: 0 auto;    
-    padding-top: 200px;
-    width: 80%;  
-    max-height: fit-content;
-    
-
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-top: 200px;
+  width: 80%;
+  max-height: fit-content;
 }
 
 .sol {
-    text-align: center;
+  text-align: center;
 }
 
 .solucionesTexto {
-    font-family:  'Outfit', sans-serif;
-    font-size: 5rem;
-    color:#393E46; 
-    padding-top:20px;
-    padding-bottom: 25px;
-    text-shadow:  2px 4px rgb(126, 189, 129);
-   
-
+  font-family: "Outfit", sans-serif;
+  font-size: 5rem;
+  color: #393e46;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  text-shadow: 2px 4px rgb(126, 189, 129);
 }
 .solucionesItems {
-    display: flex;
-    flex-direction: column;
-    font-size: 30px;
-    font-weight: 500; 
-    line-height: 90px;
-    font-family:'Roboto', sans-serif;
-    color:#393E46; 
-    text-align: center;
-    margin-bottom: 30px;
-
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 90px;
+  font-family: "Roboto", sans-serif;
+  color: #393e46;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.solImgContenedor  {
-    display: flex;
-    justify-content: center;
+.solImgContenedor {
+  display: flex;
+  justify-content: center;
 }
-
 
 #contacto {
-    background-image: url(../img/shutterstock_2160266215.jpg);
-    background-position: center; 
-    background-repeat: no-repeat;   
-    background-size: cover;
-    max-width: 100%;    
-    height:350px;
-    color:rgb(230, 233, 238);   
-    font-family: 'Outfit', sans-serif;
-    font-weight:900;
-    font-size: 4rem;
-   
-    
-    
+  background-image: url(../img/shutterstock_2160266215.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 350px;
+  color: rgb(230, 233, 238);
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
 }
 
-#contacto h2 {   
-    
-    margin: auto;   
-    width: 600px;
-    padding-left:30px;
-    padding-top: 90px;
-    text-shadow:  2px 4px rgb(126, 189, 129);
-    
+#contacto h2 {
+  margin: auto;
+  width: 600px;
+  padding-left: 30px;
+  padding-top: 90px;
+  text-shadow: 2px 4px rgb(126, 189, 129);
 }
 
-.contactoDescripcion{
-    display: flex;
-    justify-content: center;
-    
+.contactoDescripcion {
+  display: flex;
+  justify-content: center;
 }
 .contactoDescripcion p {
-    font-family:'Roboto', sans-serif;
-    font-weight: 600; 
-    font-size: 24px;
-    padding: 50px;
-    color: #393E46;
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 50px;
+  color: #393e46;
 }
 .contactoBox {
-    height: 30vh;
+  height: 30vh;
 }
 
-.whatsapp{
-    display: flex;
-    justify-content: center;
-    border-radius: 3px;    
-    text-align: center;
+.whatsapp {
+  display: flex;
+  justify-content: center;
+  border-radius: 3px;
+  text-align: center;
 }
-
 
 .whatsapp-button {
-    height: 70px;
-    width: 500px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
-    background-color: #3e9e66;
-    border-radius: 3px;
+  height: 70px;
+  width: 500px;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  background-color: #3e9e66;
+  border-radius: 3px;
 }
 
-
-.contenedorFooter{
-    height: 200px;
-    background-color: #76EAD7;
-    display: flex;    
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
+.contenedorFooter {
+  height: 200px;
+  background-color: #76ead7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
 }
 
 .redes i {
-    font-size: 30px; /* Ajusta el tamaño según tus necesidades */
-    margin: 0 10px; /* Ajusta el espacio entre los iconos si es necesario */
-  }
+  font-size: 30px; /* Ajusta el tamaño según tus necesidades */
+  margin: 0 10px; /* Ajusta el espacio entre los iconos si es necesario */
+}
 
-  .copyright {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: #666; /* Cambia el color según tu paleta de colores */
-    margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
-    position: absolute; /* Añadido para posicionar de forma absoluta */
-    bottom: 0; /* Coloca el aviso en la parte inferior del contenedor */
-    left: 50%; /* Coloca el aviso en el centro horizontalmente */
-    transform: translateX(-50%); /* Ajusta para centrar completamente */
-  }
-  
- /** media queries**/
+.copyright {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #666; /* Cambia el color según tu paleta de colores */
+  margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
+  position: absolute; /* Añadido para posicionar de forma absoluta */
+  bottom: 0; /* Coloca el aviso en la parte inferior del contenedor */
+  left: 50%; /* Coloca el aviso en el centro horizontalmente */
+  transform: translateX(-50%); /* Ajusta para centrar completamente */
+}
 
+/** media queries**/
 
- /**
+/**
  @media screen and (min-width: 1239px) and (max-width: 1430px) {}
  
    body {
@@ -459,246 +398,186 @@ h1 {
 
 /**Tablet**/
 
- @media screen and (max-width: 768px) {
-
-    #header {
-        flex-direction: column;
-        justify-content: center;
-        height:500px;
-        padding: 0;       
-         
-             
-       
-    }
-   
-     .siglas {
-        font-size:35px;
-    }
-    .titulo {
-        font-size: 25px;
-    }
-    .logoImg {
-        padding-left: 25px;
-        
-    }
-    
-    nav {
-        display: flex;
-        
-        
-    }
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        line-height: 1.7rem;
-       
-    }
-    .navItem a {
-        font-size: 20px;
-        text-align: center;
-        
-        
-    }
-    
-
-    #inicio {
-        flex-direction: column;        
-        background-position:top center;
-        background-size: cover;
-        height:65vh;
-        background-size:800px;
-        
-
-        
-        
-    }
-   .letrasPrincipales{
-      width:50%;
-   }
-    .letrasPrincipales h1 {
-        font-size: 50px;
-        
-    }
-
-    .subtitulo p {
-        font-size: 30px;
-        padding-left: 20px;
-
-    }
-
-
-    #nosotros {
-        flex-direction: column;
-    }
-
-    .cajas {
-        flex-direction: column;
-    }
-
-    .serviciosContenido {
-        flex-direction: column;
-    }
-
-    .serviciosDescripcion {
-        width: 560px;
-        height:fit-content;
-    }
-
-
-
-    
-
-
-
-    }
-
-@media screen and (min-width: 375px) {
-
-    #inicio {       
-        margin: 0;
-    }
-    .letrasPrincipales {
-      padding: 0;
-      font-size: 20px;
-
-    }
-
-    
-
-
-}
-
-    
- 
-@media screen and (max-width: 480px) {
-
-    #inicio {
-        background-size:cover;
-        height: 180px;
-      
-    }
-
-    .nombre {
-        padding-right: 25px;
-        line-height: 35px;
-    }
-    .navItem a {
-        font-size: 15px;
-        
-    }
-
-    .letrasPrincipales {
-        padding: 10px;
-    }
-
-    .letrasPrincipales h1 {
-        font-size: 28px;
-        
-        
-    }
-
-    .subtitulo {
-       padding: 0;
-    }
-
-    .subtitulo p {
-        font-size: 17px;
-    }
-
-    #nosotros {
-        height: 310px;
-    }
-
-  .nosotrosTexto {
-   width: 100px;   
+@media screen and (max-width: 768px) {
+  #header {
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    padding: 0;
   }
 
-    .nosotrosTexto h2 {
-        font-size: 40px;
-    }
+  .siglas {
+    font-size: 35px;
+  }
+  .titulo {
+    font-size: 25px;
+  }
+  .logoImg {
+    padding-left: 25px;
+  }
 
-    .icon {
-        width: 150px;
-    }
+  nav {
+    display: flex;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7rem;
+  }
+  .navItem a {
+    font-size: 20px;
+    text-align: center;
+  }
 
-    .serviciosTexto h2 {
-        font-size: 40px;
-        text-align: center;
-    }
-    .serviciosDescripcion {
-        flex-direction: column;
-        width: 80%;
-        text-align: left;
-        line-height: 1.5rem;
-        font-size: 30px;
-    }
+  #inicio {
+    flex-direction: column;
+    background-position: top center;
+    background-size: cover;
+    height: 65vh;
+    background-size: 800px;
+  }
+  .letrasPrincipales {
+    width: 50%;
+  }
+  .letrasPrincipales h1 {
+    font-size: 50px;
+  }
 
-    #soluciones {
-        flex-direction: column;
-        padding-top:100px;
-        width: 90%;
-        height:auto;
-    }
+  .subtitulo p {
+    font-size: 30px;
+    padding-left: 20px;
+  }
 
-    #soluciones h2 {
-        
-        font-size: 40px;
-        text-align: center;
-    }
+  #nosotros {
+    flex-direction: column;
+  }
 
-    .solucionesItems {
-        flex-direction: column;
-        width: 100%;
-        font-size: 20px;
-        text-align: center;
-        
-        
-    }
-    
-    .solImg {
-       width: 90%;
-       padding-left: 25px;
-       
-              
-       }
-       
-       .contactoTexto {
-        display: flex;       
-        height: 200px;
-        padding-right: 35px;
-       }
-       
-       .contactoTexto h2 {
-        font-size: 40px;        
-        justify-content: center;
-        text-align: center;
-        
+  .cajas {
+    flex-direction: column;
+  }
 
-       }
+  .serviciosContenido {
+    flex-direction: column;
+  }
 
-             
-        .contactoBox {
-            height:370px;
-        }
-       
-       .whatsapp {
-        margin-bottom: 200px;
-       
-       }
+  .serviciosDescripcion {
+    width: 560px;
+    height: fit-content;
+  }
+}
 
-       .whatsapp-button  {
-        width: 60%;
-        padding-bottom: 30px;
-        
-       }
-       .whatsapp-text {
-        font-size: 35px;
-        font-weight: 500;
-        
-       }
-       
 
-    }
 
-      
-   
+@media screen and (max-width: 480px) {
+  #inicio {
+    background-size: cover;
+    height: 250px;
+  }
+
+  .nombre {
+    padding-right: 25px;
+    line-height: 35px;
+  }
+  .navItem a {
+    font-size: 15px;
+  }
+
+  .letrasPrincipales {
+    padding: 10px;
+  }
+
+  .letrasPrincipales h1 {
+    font-size: 35px;
+  }
+
+  .subtitulo {
+    padding: 0;
+  }
+
+  .subtitulo p {
+    font-size: 25px;
+  }
+
+  #nosotros {
+    height: 310px;
+  }
+
+  .nosotrosTexto {
+    width: 200px;
+  }
+
+  .nosotrosTexto h2 {
+    font-size: 40px;
+  }
+
+  .icon {
+    width: 150px;
+  }
+
+  .serviciosTexto h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .serviciosDescripcion {
+    flex-direction: column;
+    width: 80%;
+    text-align: left;
+    line-height: 1.5rem;
+    font-size: 30px;
+  }
+
+  #soluciones {
+    flex-direction: column;
+    padding-top: 100px;
+    width: 90%;
+    height: auto;
+  }
+
+  #soluciones h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .solucionesItems {
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .solImg {
+    width: 90%;
+    padding-left: 25px;
+  }
+
+  .contactoTexto {
+    display: flex;
+    height: 200px;
+    padding-right: 35px;
+  }
+
+  .contactoTexto h2 {
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contactoBox {
+    height: 370px;
+  }
+
+  .whatsapp {
+    margin-bottom: 200px;
+  }
+
+  .whatsapp-button {
+    width: 60%;
+    padding-bottom: 30px;
+  }
+  .whatsapp-text {
+    font-size: 35px;
+    font-weight: 500;
+  }
+  
+}
+
