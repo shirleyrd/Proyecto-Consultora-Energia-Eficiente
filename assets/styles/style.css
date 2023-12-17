@@ -104,7 +104,7 @@ h1 {
 #inicio {
   display: flex;
   background-image: url(../img/img_Inicio.png);
-  height: 100vh;
+  height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
