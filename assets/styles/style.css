@@ -42,6 +42,9 @@ body {
     color:#393E46 ;
 }
 
+.logotipo {
+    width: fit-content;
+}
 .logoImg {
     height: 160px;
     align-items: center;
@@ -120,7 +123,7 @@ h1 {
     
     display: flex;    
     background-image: url(../img/img_Inicio.png); 
-    height:80vh;
+    height:90vh;
     background-position: center; 
     background-repeat: no-repeat;   
     background-size: cover;
@@ -259,14 +262,19 @@ h1 {
 }
 
 #soluciones {
-    display: flex;     
-    margin: 0 auto;     
-    height: 100vh;
+    display: flex;
+    flex-direction: column;      
+    margin: 0 auto;    
     padding-top: 200px;
     width: 80%;  
-      
+    max-height: fit-content;
+    
+
 }
 
+.sol {
+    text-align: center;
+}
 
 .solucionesTexto {
     font-family:  'Outfit', sans-serif;
@@ -275,15 +283,24 @@ h1 {
     padding-top:20px;
     padding-bottom: 25px;
     text-shadow:  2px 4px rgb(126, 189, 129);
+   
 
 }
 .solucionesItems {
+    display: flex;
+    flex-direction: column;
     font-size: 23px;
     font-weight: 500; 
     line-height: 90px;
     font-family:'Roboto', sans-serif;
     color:#393E46; 
+    text-align: center;
 
+}
+
+.solImgContenedor  {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -375,6 +392,9 @@ h1 {
   }
   
  /** media queries**/
+
+
+ /**
  @media screen and (min-width: 1239px) and (max-width: 1430px) {}
  
    body {
