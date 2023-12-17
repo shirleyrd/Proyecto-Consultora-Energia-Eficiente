@@ -105,6 +105,7 @@ h1 {
   display: flex;
   background-image: url(../img/img_Inicio.png);
   height: 80vh;
+  max-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,6 +113,8 @@ h1 {
   align-items: self-start;
   gap: 10px;
   margin-bottom: 50px;
+  object-fit: cover; 
+  object-position: center;
 }
 
 #nosotros {
@@ -332,15 +335,16 @@ h1 {
   transform: translateX(-50%); /* Ajusta para centrar completamente */
 }
 
-/** media queries**/
+/** media queries**
 
-/**
- @media screen and (min-width: 1239px) and (max-width: 1430px) {}
+ @media screen and (min-width: 1024px) and (max-width: 1440px) {}
  
-   body {
-    max-width: 100%;
-   }
 
+  #inicio {
+    max-width: 100%;
+    
+  }
+   
     .navItem a {
         font-size: 15px;
         letter-spacing: 1px;
@@ -351,13 +355,7 @@ h1 {
         padding-left: 73px;
     }
 
-    #inicio {
-        background-size: cover;
-        height: auto;  
-        flex-direction: column;          
-       
-        
-    }
+  
     .letrasPrincipales {
         margin: 0;
         padding: 0;
@@ -433,8 +431,11 @@ h1 {
     flex-direction: column;
     background-position: top center;
     background-size: cover;
-    height: 65vh;
+    height: 65vh;    
     background-size: 800px;
+    object-fit: cover;
+    object-position: center;
+    
   }
   .letrasPrincipales {
     width: 50%;
@@ -472,6 +473,8 @@ h1 {
   #inicio {
     background-size: cover;
     height: 250px;
+    object-fit: cover;
+    object-position: center;
   }
 
   .nombre {
