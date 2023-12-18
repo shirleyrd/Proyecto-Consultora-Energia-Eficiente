@@ -108,13 +108,11 @@ h1 {
   max-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: left;
+  background-size: cover;  
   align-items: self-start;
   gap: 10px;
   margin-bottom: 50px;
-  object-fit: cover; 
-  object-position: center;
+  
 }
 
 #nosotros {
@@ -338,14 +336,15 @@ h1 {
 /** media queries**/
 
  @media screen and (min-width: 1024px) and (max-width: 1250px) {
- 
+
+    
 
   #inicio {
     object-fit: cover; 
-    object-position: center;
-    background-position: center;
+    object-position:  center;
+    background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 80vh;
   }
    
@@ -610,3 +609,45 @@ h1 {
   
 }
 
+@media screen and (max-width: 360px) {
+
+    #inicio {
+        min-height: 30vh;
+        background-size: contain;
+
+    }
+
+    .navItem {
+        background-color:#76ead7;
+        text-align: center;
+        margin:1px;        
+        width: 100%;
+
+    }
+    nav {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    #inicio h1 {
+        font-size: 25px;
+    }
+
+    .subtitulo {
+        margin-top: 25px;
+        background-color:#C4FB6D;
+        
+    }
+
+    .solImg {
+        padding-left: 0;
+    }
+
+    .contactoDescripcion p {
+        text-align: center;
+    }
+  }
