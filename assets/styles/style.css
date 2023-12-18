@@ -350,7 +350,7 @@ h1 {
   }
    
     .navItem a {
-        font-size: 15px;
+        font-size: 13px;
         letter-spacing: 1px;
     }
 
@@ -404,6 +404,10 @@ h1 {
        padding-inline: 25px;
        
       
+    }
+    .cajas {
+        margin-left: 15px;
+        max-width: 100%;
     }
 
 
