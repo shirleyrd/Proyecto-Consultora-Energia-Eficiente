@@ -195,7 +195,7 @@ h1 {
 .serviciosDescripcion {
   font-family: "Roboto", sans-serif;
   text-align: justify;
-  height: 800px;
+  height: 500px;
   line-height: 2rem;
 }
 .serviciosDescripcion h3 {
@@ -250,6 +250,13 @@ h1 {
   margin-bottom: 30px;
 }
 
+
+.solucionesIcon {
+  display: flex;
+  margin: auto;
+  width: 200px;
+ 
+}
 .solImgContenedor {
   display: flex;
   justify-content: center;
@@ -304,7 +311,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-size: 3rem;
   background-color: #3e9e66;
-  border-radius: 3px;
+  border-radius: 25px;
 }
 
 .contenedorFooter {
@@ -333,21 +340,26 @@ h1 {
   transform: translateX(-50%); /* Ajusta para centrar completamente */
 }
 
+
+
 /** media queries**/
 
  @media screen and (min-width: 1024px) and (max-width: 1250px) {
 
-    
+  body {
+    background-size: cover;
+    max-width: 100%;
+  }
 
-  #inicio {
-    object-fit: cover; 
-    object-position:  center;
+  #inicio {    
+    
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 80vh;
+    height: 60vh;
+    margin-bottom: 0;
   }
-   
+  
     .navItem a {
         font-size: 13px;
         letter-spacing: 1px;
@@ -360,58 +372,67 @@ h1 {
 
   
     .letrasPrincipales {
-        margin: 0;
-        padding: 0;
+        
         height:auto;
     }
 
     .letrasPrincipales h1{
-        font-size: 90px;
+        font-size: 80px;
        
     }
 
-
+    .subtitulo {
+      display: flex;
+      justify-content: center;  
+      align-items: center;    
+      height:100px;
+      width: 90%;
+    background-color:#C4FB6D;    
+  
+    
+    }
 
     .subtitulo p {
-        font-size: 60px;
+        font-size: 50px;
     }
     
     #nosotros {
+        display:flex;
         flex-direction: column;
-        justify-content: center;
-        height:auto;
-        margin-left: 200px;
-        width: 100%;
-        
+        align-items: center;
+        margin-top: 80px;
+        min-height: 60vh;
     }
     
-    .nosotrosImg {
-        max-width: 60%;
-        display: flex;
-        margin-bottom: 0;
-        
+    .nosotrosImg {        
+        width: 50rem;
+               
 
     }
-    .servicioContenido {
-        display: flex;
-        flex-direction: column;
-       
-    }
-    .serviciosDescripcion {
-      
-       margin-inline: 25px;
-       padding-inline: 25px;
-       
-      
-    }
+
     .cajas {
-        margin-left: 15px;
-        max-width: 100%;
+      margin: 0 auto;
+      
+           
+
+    }
+    .serviciosContenido {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    .serviciosDescripcion {
+      width: 80%;
+      text-align: justify;
     }
 
-
-
-
+    #soluciones {
+      padding-top: 10px;
+    }
+    
 
 }
 

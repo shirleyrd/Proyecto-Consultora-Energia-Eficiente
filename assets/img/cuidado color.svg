@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<svg width="350" height="350" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" xml:space="preserve">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <g id="svg_2" transform="matrix(0.131146, 0, 0, -0.131146, -29.7263, 2416.35)">
+    <path d="m1875.91,17453.16l340.9,458.1l-152.7,-804.2l430.5,0l-856.3,-1182.8l152.8,843.7l-430.5,-7.2l152.2,204.5" fill="none" id="svg_3" stroke="#76ead7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="90.27"/>
+   </g>
+   <g id="svg_4" transform="matrix(0.132261, 0, 0, -0.132261, -29.7263, 2416.35)">
+    <path d="m1748.02,16950.77l-1101,0c-69.9,0 -113.2,76 -77.6,136.2l550.5,929.4c34.9,59 120.3,59 155.3,0l550.5,-929.4c35.6,-60.2 -7.7,-136.2 -77.7,-136.2z" fill="none" id="svg_5" stroke="#76ead7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="89.51"/>
+   </g>
+   <g id="svg_6" transform="matrix(0.129218, 0, 0, -0.129218, -29.7263, 2416.35)">
+    <path d="m1225.76,18117.17l0,-315.7" fill="none" id="svg_7" stroke="#76ead7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="91.62"/>
+   </g>
+   <g id="svg_8" transform="matrix(0.125188, 0, 0, -0.125188, -29.7263, 2416.35)">
+    <path d="m1265.18,18175.68l0,-56.9" fill="none" id="svg_9" stroke="#76ead7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="94.57"/>
+   </g>
+  </g>
+ </g>
+</svg>
