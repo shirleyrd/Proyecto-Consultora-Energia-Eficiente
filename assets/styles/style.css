@@ -344,7 +344,7 @@ h1 {
 
 /** media queries**/
 
- @media screen and (min-width: 1024px) and (max-width: 1250px) {
+ @media screen and (min-width: 1024px) and (max-width: 1250px) and (orientation: landscape) {
 
   body {
     background-size: cover;
@@ -514,6 +514,78 @@ h1 {
 }
 
 
+@media screen and (max-width: 600px) {
+
+  #inicio {
+    background-size: contain;
+    max-height: 400px;
+    
+  }
+
+  .letrasPrincipales {
+    font-size:20px;
+    line-height: 3.4rem;
+    padding: 0;
+    
+  }
+
+  .subtitulo {
+    background-color:#C4FB6D;
+    min-height: 100px;
+  }
+  
+
+  #nosotros {
+    max-height: 320px;
+
+  }
+  .nosotrosTexto {
+    font-size: 3rem;
+    padding: 0;
+    
+  }
+
+  .serviciosTexto {
+    font-size: 3rem;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .serviciosDescripcion {
+    max-width: 80%;
+  }
+  .solucionesTexto {
+
+    font-size: 4rem;
+
+  }
+
+  .solImg {
+    max-width: 90%;
+  }
+
+  .solucionesItems li {
+    font-size: 1.5rem;
+  }
+
+  .contactoTexto {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 25px;
+  }
+  .contactoDescripcion p {
+    text-align: center;
+
+  }
+  .whatsapp-button {
+    width: 70%;
+    font-size: 2rem;
+  }
+
+
+}
 
 @media screen and (max-width: 480px) {
   #inicio {
