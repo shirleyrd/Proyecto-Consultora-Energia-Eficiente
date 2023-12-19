@@ -31,7 +31,7 @@ body {
   -webkit-text-fill-color: #3e9e66;
 }
 .titulo {
-  font-family: "Istock Web", sans-serif;
+  font-family: "Istok Web", sans-serif;
   color: #393e46;
 }
 
@@ -69,6 +69,9 @@ a {
 }
 
 a:hover {
+  color: #3e9e66;
+}
+a:active {
   color: #3e9e66;
 }
 
@@ -116,8 +119,7 @@ h1 {
 }
 
 #nosotros {
-  width: 80%;
-  height: 100vh;
+  width: 80%;  
   color: #393e46;
   font-family: "Outfit", sans-serif;
   font-weight: 900;
@@ -125,7 +127,7 @@ h1 {
   display: flex;
   justify-content: center;
   padding-left: 25px;
-  height: 500px;
+  height: 400px;
   margin: 0 auto;
   text-shadow: 2px 4px rgb(126, 189, 129);
 }
@@ -197,6 +199,7 @@ h1 {
   text-align: justify;
   height: 500px;
   line-height: 2rem;
+  max-width: 50%;
 }
 .serviciosDescripcion h3 {
   color: #3e9e66;
@@ -342,7 +345,7 @@ h1 {
 
 
 
-/** media queries**/
+/** media queries**
 @media screen and (min-width: 1250px) {
 
   .logoImg {
@@ -479,16 +482,14 @@ h1 {
 
 
 @media screen and (max-width: 768px) {
-  #header {
+  .headerContainer {
     flex-direction: column;
     justify-content: center;
     height: 500px;
     padding: 0;
+    
   }
-
-  .siglas {
-    font-size: 35px;
-  }
+ 
   .titulo {
     font-size: 25px;
   }
@@ -503,6 +504,7 @@ h1 {
     display: flex;
     flex-direction: column;
     line-height: 1.7rem;
+   
   }
   .navItem a {
     font-size: 20px;
@@ -511,36 +513,46 @@ h1 {
 
   #inicio {
     flex-direction: column;
-    background-position: top center;
-    background-size: cover;
-    height: 65vh;    
+    background-position: top center;    
+    height: 50vh;    
     background-size: 800px;
-    object-fit: cover;
-    object-position: center;
+    
     
   }
   .letrasPrincipales {
-    width: 50%;
+    width: 60%;
+    padding: 15px;
   }
-  .letrasPrincipales h1 {
-    font-size: 50px;
+  
+  h1 {
+    font-size: 3.5rem;
+  }
+  .subtitulo {
+    text-align: center;
   }
 
   .subtitulo p {
-    font-size: 30px;
+    font-size: 35px;
     padding-left: 20px;
+   
   }
 
   #nosotros {
     flex-direction: column;
+    font-size: 3.5rem;
   }
 
   .cajas {
     flex-direction: column;
   }
+  .serviciosTexto {
+    font-size: 4rem;
+
+  }
 
   .serviciosContenido {
     flex-direction: column;
+    
   }
 
   .serviciosDescripcion {
@@ -553,6 +565,7 @@ h1 {
 @media screen and (max-width: 600px) {
 
   #inicio {
+    background-image: url(../img/img_Inicio390.png);
     background-size: contain;
     max-height: 400px;
     
@@ -561,24 +574,36 @@ h1 {
   .letrasPrincipales {
     font-size:20px;
     line-height: 3.4rem;
-    padding: 0;
+    padding: 5px 3px 3px 3px;
     
   }
 
   .subtitulo {
-    background-color:#C4FB6D;
-    min-height: 100px;
+   margin-top:20px;
+   padding: 20px;
+   background-color:#3e9e66;
+   text-align: center;
+   
+   
   }
-  
+
+  .subtitulo p {
+    font-size: 2.5rem;
+  }
 
   #nosotros {
     max-height: 320px;
+    padding-top: 40px;
 
   }
   .nosotrosTexto {
     font-size: 3rem;
     padding: 0;
     
+    
+  }
+  .icon {
+    width: 170px;
   }
 
   .serviciosTexto {
@@ -623,13 +648,8 @@ h1 {
 
 }
 
-@media screen and (max-width: 480px) {
-  #inicio {
-    background-size: cover;
-    height: 250px;
-    object-fit: cover;
-    object-position: center;
-  }
+@media screen and (max-width: 485px) {
+ 
 
   .nombre {
     padding-right: 25px;
@@ -640,44 +660,37 @@ h1 {
   }
 
   .letrasPrincipales {
-    padding: 10px;
+    padding-left: 5px;
+    font-size: 35px;
+    
   }
 
   .letrasPrincipales h1 {
     font-size: 35px;
   }
 
-  .subtitulo {
-    padding: 0;
+  .subtitulo p{
+    font-size: 30px;
   }
 
-  .subtitulo p {
-    font-size: 25px;
-  }
+  
 
-  #nosotros {
-    height: 310px;
-  }
+  
 
   .nosotrosTexto {
-    width: 200px;
+    width: 60%;
+    font-size: 2.5rem;
   }
 
-  .nosotrosTexto h2 {
-    font-size: 40px;
-  }
+ 
 
   .icon {
     width: 150px;
   }
 
-  .serviciosTexto h2 {
-    font-size: 40px;
-    text-align: center;
-  }
+  
   .serviciosDescripcion {
-    flex-direction: column;
-    width: 80%;
+    flex-direction: column;    
     text-align: left;
     line-height: 1.5rem;
     font-size: 30px;
@@ -690,8 +703,8 @@ h1 {
     height: auto;
   }
 
-  #soluciones h2 {
-    font-size: 40px;
+  #soluciones  {
+    font-size: 2.5rem;
     text-align: center;
   }
 
@@ -702,34 +715,19 @@ h1 {
     text-align: center;
   }
 
-  .solImg {
-    width: 90%;
-    padding-left: 25px;
-  }
+ 
 
-  .contactoTexto {
-    display: flex;
+  .contactoTexto {    
     height: 200px;
     padding-right: 35px;
+    font-size: 2.5rem;
   }
+ 
+ 
 
-  .contactoTexto h2 {
-    font-size: 40px;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .contactoBox {
-    height: 370px;
-  }
-
-  .whatsapp {
-    margin-bottom: 200px;
-  }
-
+  
   .whatsapp-button {
-    width: 60%;
-    padding-bottom: 30px;
+    width: 60%;    
   }
   .whatsapp-text {
     font-size: 35px;
@@ -740,14 +738,9 @@ h1 {
 
 @media screen and (max-width: 360px) {
 
-    #inicio {
-        min-height: 30vh;
-        background-size: contain;
+   
 
-    }
-
-    .navItem {
-        background-color:#76ead7;
+    .navItem {        
         text-align: center;
         margin:1px;        
         width: 100%;
@@ -763,14 +756,37 @@ h1 {
     }
 
     #inicio h1 {
-        font-size: 25px;
-    }
-
-    .subtitulo {
-        margin-top: 25px;
-        background-color:#C4FB6D;
+        font-size: 2rem;
+        line-height: 2rem;
         
     }
+
+    #nosotros {
+      padding: 0;
+      
+    }
+
+   .nosotrosTexto {
+    font-size: 2rem;
+    
+
+   }
+
+   .serviciosTexto {
+    font-size: 2rem ;
+   }
+
+   .serviciosDescripcion p {
+    font-size: 1rem;
+   }
+
+   .solucionesTexto {
+    font-size: 2.5rem;
+   }
+
+   .solucionesItems li {
+    font-size: 1.3rem;
+   }
 
     .solImg {
         padding-left: 0;
@@ -778,5 +794,10 @@ h1 {
 
     .contactoDescripcion p {
         text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .whatsapp-button  {
+      font-size: 2rem;
     }
   }
