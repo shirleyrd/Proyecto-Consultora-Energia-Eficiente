@@ -283,7 +283,7 @@ h1 {
   width: 600px;
   padding-left: 30px;
   padding-top: 90px;
-  text-shadow: 2px 4px rgb(126, 189, 129);
+  text-shadow: 2px 4px rgb(3, 3, 3);
 }
 
 .contactoDescripcion {
@@ -545,21 +545,52 @@ h1 {
   .cajas {
     flex-direction: column;
   }
-  .serviciosTexto {
-    font-size: 4rem;
+  .servicios {
+    font-size: 3rem;
+    text-align: center;
 
   }
 
   .serviciosContenido {
     flex-direction: column;
-    
+    min-width: 100%;
+        
   }
 
   .serviciosDescripcion {
-    width: 560px;
-    height: fit-content;
+        height: fit-content;
+        min-width: 80%;
   }
-}
+
+  .solucionesTexto {
+    font-size: 4.5rem;
+  }
+
+  .solucionesItems {
+    font-size: 1.5rem;
+  }
+
+  #contacto  {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .contactoDescripcion p {
+    justify-content: center;
+  }
+
+  .whatsapp-button {
+    max-width: 30%;   
+    
+    font-size: 2rem;
+
+  }
+
+  .whatsapp-text {
+    font-size: 1.7rem;
+  }
+
+  
 
 
 @media screen and (max-width: 600px) {
