@@ -343,8 +343,44 @@ h1 {
 
 
 /** media queries**/
+@media screen and (min-width: 1250px) {
 
- @media screen and (min-width: 1024px) and (max-width: 1250px) and (orientation: landscape) {
+  .logoImg {
+    padding-left: 2px;
+  }
+  nav a {
+    font-size: 1rem ;
+  }
+
+  #nosotros {
+    flex-direction: column;
+    min-height:60vh;
+    justify-content: center;
+
+  }
+
+  .nosotrosImg {
+    max-width: 80%;
+  }
+
+  .serviciosContenido {
+    flex-direction: column;
+    
+  }
+  
+  .serviciosDescripcion {
+    padding-top: 20px;
+    margin : 25px;
+    min-width: 80%;
+
+  }
+
+  .whatsapp-button {
+        
+    font-size: 2rem;
+  }
+}
+ @media screen and (min-width: 1024px) and (max-width: 1250px)  {
 
   body {
     background-size: cover;
