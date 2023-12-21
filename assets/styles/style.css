@@ -345,112 +345,84 @@ h1 {
 
 
 
-/** media queries**
-@media screen and (min-width: 1250px) {
+/** media queries**/
+@media screen and (max-width: 1490px) {
 
-  .logoImg {
-    padding-left: 2px;
-  }
-  nav a {
-    font-size: 1rem ;
-  }
+  .navItem a {
+    font-size: 1rem;
 
-  #nosotros {
-    flex-direction: column;
-    min-height:60vh;
-    justify-content: center;
 
-  }
-
-  .nosotrosImg {
-    max-width: 80%;
-  }
-
-  .serviciosContenido {
-    flex-direction: column;
-    
   }
   
-  .serviciosDescripcion {
-    padding-top: 20px;
-    margin : 25px;
-    min-width: 80%;
-
+  .volser {
+    display: none;
   }
+  
 
-  .whatsapp-button {
-        
-    font-size: 2rem;
-  }
 }
- @media screen and (min-width: 1024px) and (max-width: 1250px)  {
 
-  body {
-    background-size: cover;
-    max-width: 100%;
-  }
+ 
+ @media screen and (max-width: 1024px)  {
 
-  #inicio {    
-    
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 60vh;
-    margin-bottom: 0;
-  }
-  
+ 
+ 
+    .titulo {
+      font-size: 20px;
+    }  
+
+   
+    nav {
+     width: 100%;
+    }
+
     .navItem a {
-        font-size: 13px;
+        font-size: 0.7rem;
         letter-spacing: 1px;
+    }  
+
+    h1 {
+      font-size: 4.5rem;
     }
-
-
-    .logoImg {
-        padding-left: 73px;
-    }
-
-  
-    .letrasPrincipales {
-        
-        height:auto;
-    }
-
-    .letrasPrincipales h1{
-        font-size: 80px;
-       
+    #inicio {
+      background-size: contain;
+      background-position: top;
+      height:50vh;
+      flex-direction: column;
+      
     }
 
     .subtitulo {
-      display: flex;
-      justify-content: center;  
-      align-items: center;    
-      height:100px;
-      width: 90%;
-    background-color:#C4FB6D;    
-  
-    
+      background-color: #3e9e66;
+      justify-content: center;
     }
 
+    
+    
+   
     .subtitulo p {
-        font-size: 50px;
+      font-size: 2.5rem;
+          
     }
+   
+
     
     #nosotros {
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 80px;
-        min-height: 60vh;
-    }
-    
-    .nosotrosImg {        
-        width: 50rem;
-               
+      flex-direction: column;
+      max-width: 70%;
+      font-size: 2.5rem;
 
     }
+
+    .serviciosDescripcion {
+      height:fit-content
+    }
+    
+  
+   
 
     .cajas {
       margin: 0 auto;
+      flex-direction: column;
       
            
 
@@ -481,13 +453,32 @@ h1 {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .headerContainer {
     flex-direction: column;
     justify-content: center;
     height: 500px;
     padding: 0;
     
+  }
+
+  
+
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7rem;
+       
+   
+  }
+
+  .navItem a {
+    font-size: 1rem;
   }
  
   .titulo {
@@ -497,24 +488,11 @@ h1 {
     padding-left: 25px;
   }
 
-  nav {
-    display: flex;
-  }
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.7rem;
-   
-  }
-  .navItem a {
-    font-size: 20px;
-    text-align: center;
-  }
+
 
   #inicio {
     flex-direction: column;
-    background-position: top center;    
-    height: 50vh;    
+    background-position: top center;      
     background-size: 800px;
     
     
@@ -529,6 +507,7 @@ h1 {
   }
   .subtitulo {
     text-align: center;
+    background-color:transparent;
   }
 
   .subtitulo p {
@@ -590,7 +569,7 @@ h1 {
     font-size: 1.7rem;
   }
 
-  
+  }
 
 
 @media screen and (max-width: 600px) {
@@ -625,12 +604,14 @@ h1 {
   #nosotros {
     max-height: 320px;
     padding-top: 40px;
+    margin-right: 100px;
+   
 
   }
   .nosotrosTexto {
     font-size: 3rem;
     padding: 0;
-    
+   
     
   }
   .icon {
@@ -672,8 +653,12 @@ h1 {
 
   }
   .whatsapp-button {
-    width: 70%;
-    font-size: 2rem;
+    width: 80%;
+    font-size: 1.3rem;
+    
+  }
+  .whatsapp-text {
+    font-size: 1.3rem;
   }
 
 
@@ -705,9 +690,6 @@ h1 {
   }
 
   
-
-  
-
   .nosotrosTexto {
     width: 60%;
     font-size: 2.5rem;
@@ -732,11 +714,8 @@ h1 {
     padding-top: 100px;
     width: 90%;
     height: auto;
-  }
+    font-size: 2.5rem;    
 
-  #soluciones  {
-    font-size: 2.5rem;
-    text-align: center;
   }
 
   .solucionesItems {
@@ -764,8 +743,8 @@ h1 {
     font-size: 35px;
     font-weight: 500;
   }
-  
 }
+
 
 @media screen and (max-width: 360px) {
 
@@ -785,23 +764,23 @@ h1 {
 
 
     }
-
+   
     #inicio h1 {
         font-size: 2rem;
-        line-height: 2rem;
+        line-height: 3rem;
         
     }
 
-    #nosotros {
-      padding: 0;
-      
-    }
 
    .nosotrosTexto {
     font-size: 2rem;
     
 
    }
+   .nosotrosImg {
+    width: 280px;
+   }
+ 
 
    .serviciosTexto {
     font-size: 2rem ;
@@ -809,6 +788,10 @@ h1 {
 
    .serviciosDescripcion p {
     font-size: 1rem;
+   }
+
+   .cajaTexto  {
+    font-size: 1.3rem;
    }
 
    .solucionesTexto {
@@ -822,6 +805,10 @@ h1 {
     .solImg {
         padding-left: 0;
     }
+    .contactoTexto {
+      font-size: 2rem;
+
+    }
 
     .contactoDescripcion p {
         text-align: center;
@@ -829,6 +816,10 @@ h1 {
     }
 
     .whatsapp-button  {
-      font-size: 2rem;
+      font-size: 1.5rem;
+     
+    }
+    .whatsapp-text {
+      font-size: 1rem;
     }
   }
