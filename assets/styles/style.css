@@ -107,19 +107,19 @@ h1 {
 #inicio {
   display: flex;
   background-image: url(../img/img_Inicio.png);
+
   height: 80vh;
   max-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
   align-items: self-start;
   gap: 10px;
   margin-bottom: 50px;
-  
 }
 
 #nosotros {
-  width: 80%;  
+  width: 80%;
   color: #393e46;
   font-family: "Outfit", sans-serif;
   font-weight: 900;
@@ -253,12 +253,10 @@ h1 {
   margin-bottom: 30px;
 }
 
-
 .solucionesIcon {
   display: flex;
   margin: auto;
   width: 200px;
- 
 }
 .solImgContenedor {
   display: flex;
@@ -343,115 +341,82 @@ h1 {
   transform: translateX(-50%); /* Ajusta para centrar completamente */
 }
 
-
-
 /** media queries**/
 @media screen and (max-width: 1490px) {
-
   .navItem a {
     font-size: 1rem;
-
-
   }
-  
+
   .volser {
     display: none;
   }
-  
-
 }
 
- 
- @media screen and (max-width: 1024px)  {
+@media screen and (max-width: 1024px) {
+  .titulo {
+    font-size: 20px;
+  }
 
- 
- 
-    .titulo {
-      font-size: 20px;
-    }  
+  nav {
+    width: 100%;
+  }
 
-   
-    nav {
-     width: 100%;
-    }
+  .navItem a {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+  }
 
-    .navItem a {
-        font-size: 0.7rem;
-        letter-spacing: 1px;
-    }  
+  h1 {
+    font-size: 4.5rem;
+  }
+  #inicio {
+    background-size: contain;
+    background-position: top;
+    height: 50vh;
+    flex-direction: column;
+  }
 
-    h1 {
-      font-size: 4.5rem;
-    }
-    #inicio {
-      background-size: contain;
-      background-position: top;
-      height:50vh;
-      flex-direction: column;
-      
-    }
+  .subtitulo {
+    background-color: #3e9e66;
+    justify-content: center;
+  }
 
-    .subtitulo {
-      background-color: #3e9e66;
-      justify-content: center;
-    }
+  .subtitulo p {
+    font-size: 2.5rem;
+  }
 
-    
-    
-   
-    .subtitulo p {
-      font-size: 2.5rem;
-          
-    }
-   
+  #nosotros {
+    flex-direction: column;
+    max-width: 70%;
+    font-size: 2.5rem;
+  }
 
-    
-    #nosotros {
-      flex-direction: column;
-      max-width: 70%;
-      font-size: 2.5rem;
+  .serviciosDescripcion {
+    height: fit-content;
+  }
 
-    }
+  .cajas {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .serviciosContenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .serviciosDescripcion {
-      height:fit-content
-    }
-    
-  
-   
+  .serviciosDescripcion {
+    width: 80%;
+    text-align: justify;
+  }
 
-    .cajas {
-      margin: 0 auto;
-      flex-direction: column;
-      
-           
-
-    }
-    .serviciosContenido {
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items: center;
-       
-    }
-    
-    .serviciosDescripcion {
-      width: 80%;
-      text-align: justify;
-    }
-
-    #soluciones {
-      padding-top: 10px;
-    }
-    
-
+  #soluciones {
+    padding-top: 10px;
+  }
 }
-
-
 
 /**Tablet**/
-
-
 
 @media screen and (max-width: 800px) {
   .headerContainer {
@@ -459,11 +424,7 @@ h1 {
     justify-content: center;
     height: 500px;
     padding: 0;
-    
   }
-
-  
-
 
   nav {
     display: flex;
@@ -473,14 +434,12 @@ h1 {
     display: flex;
     flex-direction: column;
     line-height: 1.7rem;
-       
-   
   }
 
   .navItem a {
     font-size: 1rem;
   }
- 
+
   .titulo {
     font-size: 25px;
   }
@@ -488,32 +447,27 @@ h1 {
     padding-left: 25px;
   }
 
-
-
   #inicio {
     flex-direction: column;
-    background-position: top center;      
+    background-position: top center;
     background-size: 800px;
-    
-    
   }
   .letrasPrincipales {
     width: 60%;
     padding: 15px;
   }
-  
+
   h1 {
     font-size: 3.5rem;
   }
   .subtitulo {
     text-align: center;
-    background-color:transparent;
+    background-color: transparent;
   }
 
   .subtitulo p {
     font-size: 35px;
     padding-left: 20px;
-   
   }
 
   #nosotros {
@@ -527,29 +481,27 @@ h1 {
   .servicios {
     font-size: 3rem;
     text-align: center;
-
   }
 
   .serviciosContenido {
     flex-direction: column;
     min-width: 100%;
-        
   }
 
   .serviciosDescripcion {
-        height: fit-content;
-        min-width: 80%;
+    height: fit-content;
+    min-width: 80%;
   }
 
   .solucionesTexto {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 
   .solucionesItems {
     font-size: 1.5rem;
   }
 
-  #contacto  {
+  #contacto {
     font-size: 3rem;
     text-align: center;
   }
@@ -559,42 +511,34 @@ h1 {
   }
 
   .whatsapp-button {
-    max-width: 30%;   
-    
-    font-size: 2rem;
+    max-width: 50%;
 
+    font-size: 2rem;
   }
 
   .whatsapp-text {
     font-size: 1.7rem;
   }
-
-  }
-
+}
 
 @media screen and (max-width: 600px) {
-
   #inicio {
     background-image: url(../img/img_Inicio390.png);
     background-size: contain;
     max-height: 400px;
-    
   }
 
   .letrasPrincipales {
-    font-size:20px;
+    font-size: 20px;
     line-height: 3.4rem;
     padding: 5px 3px 3px 3px;
-    
   }
 
   .subtitulo {
-   margin-top:20px;
-   padding: 20px;
-   background-color:#3e9e66;
-   text-align: center;
-   
-   
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #3e9e66;
+    text-align: center;
   }
 
   .subtitulo p {
@@ -605,14 +549,10 @@ h1 {
     max-height: 320px;
     padding-top: 40px;
     margin-right: 100px;
-   
-
   }
   .nosotrosTexto {
     font-size: 3rem;
     padding: 0;
-   
-    
   }
   .icon {
     width: 170px;
@@ -628,9 +568,7 @@ h1 {
     max-width: 80%;
   }
   .solucionesTexto {
-
     font-size: 4rem;
-
   }
 
   .solImg {
@@ -650,23 +588,17 @@ h1 {
   }
   .contactoDescripcion p {
     text-align: center;
-
   }
   .whatsapp-button {
     width: 80%;
     font-size: 1.3rem;
-    
   }
   .whatsapp-text {
     font-size: 1.3rem;
   }
-
-
 }
 
 @media screen and (max-width: 485px) {
- 
-
   .nombre {
     padding-right: 25px;
     line-height: 35px;
@@ -678,32 +610,27 @@ h1 {
   .letrasPrincipales {
     padding-left: 5px;
     font-size: 35px;
-    
   }
 
   .letrasPrincipales h1 {
     font-size: 35px;
   }
 
-  .subtitulo p{
+  .subtitulo p {
     font-size: 30px;
   }
 
-  
   .nosotrosTexto {
     width: 60%;
     font-size: 2.5rem;
   }
 
- 
-
   .icon {
     width: 150px;
   }
 
-  
   .serviciosDescripcion {
-    flex-direction: column;    
+    flex-direction: column;
     text-align: left;
     line-height: 1.5rem;
     font-size: 30px;
@@ -714,8 +641,10 @@ h1 {
     padding-top: 100px;
     width: 90%;
     height: auto;
-    font-size: 2.5rem;    
-
+    font-size: 2.5rem;
+  }
+  .solucionesTexto {
+    font-size: 3rem;
   }
 
   .solucionesItems {
@@ -725,109 +654,94 @@ h1 {
     text-align: center;
   }
 
- 
-
-  .contactoTexto {    
+  .contactoTexto {
     height: 200px;
     padding-right: 35px;
     font-size: 2.5rem;
   }
- 
- 
-
-  
-  .whatsapp-button {
-    width: 60%;    
+  .whatsapp-button{
+   
+    height: 50px;
   }
+ 
+ 
   .whatsapp-text {
-    font-size: 35px;
+    font-size: 1rem;
     font-weight: 500;
   }
 }
 
-
 @media screen and (max-width: 360px) {
-
-   
-
-    .navItem {        
-        text-align: center;
-        margin:1px;        
-        width: 100%;
-
-    }
-    nav {
-        height: 200px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-
-
-    }
-   
-    #inicio h1 {
-        font-size: 2rem;
-        line-height: 3rem;
-        
-    }
-
-
-   .nosotrosTexto {
-    font-size: 2rem;
-    
-
-   }
-   .nosotrosImg {
-    width: 280px;
-   }
- 
-
-   .serviciosTexto {
-    font-size: 2rem ;
-   }
-
-   .serviciosDescripcion p {
-    font-size: 1rem;
-   }
-
-   .cajaTexto  {
-    font-size: 1.3rem;
-   }
-
-   .solucionesTexto {
-    font-size: 2.3rem;
-   }
-
-   .solucionesItems li {
-    font-size: 1.3rem;
-   }
-
-    .solImg {
-        padding-left: 0;
-    }
-    .contactoTexto {
-      font-size: 2rem;
-
-    }
-
-    .contactoDescripcion p {
-        text-align: center;
-        font-size: 1.3rem;
-    }
-
-    .contactoBox {
-      height: 500px;
-      width: 100%;
-    }
-    
-
-   
-    .whatsapp-text {
-      font-size: 1.3rem;
-    }
-
-    .volFin {
-      justify-content: end;
-    
-    }
+  .navItem {
+    text-align: center;
+    margin: 1px;
+    width: 100%;
   }
+  nav {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #inicio h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .nosotrosTexto {
+    font-size: 2rem;
+  }
+  .nosotrosImg {
+    width: 280px;
+  }
+
+  .serviciosTexto {
+    font-size: 2rem;
+  }
+
+  .serviciosDescripcion p {
+    font-size: 1rem;
+  }
+
+  .cajaTexto {
+    font-size: 1.3rem;
+  }
+
+  .solucionesTexto {
+    font-size: 2.3rem;
+  }
+
+  .solucionesItems li {
+    font-size: 1.3rem;
+  }
+
+  .solImg {
+    padding-left: 0;
+  }
+  .contactoTexto {
+    font-size: 2rem;
+  }
+
+  .contactoDescripcion p {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .contactoBox {
+    height: 500px;
+    width: 100%;
+  }
+  .whatsapp-button {
+    padding: 10px 5px 10px 5px;
+   }
+
+  .whatsapp-text {
+    font-size: 1rem;
+  }
+
+
+  .volFin {
+    justify-content: end;
+  }
+}
