@@ -7,9 +7,9 @@
 }
 
 body {
-  background-image: url(../img/fondo_body.png);
-  width: 100%;
-}
+  background-image: url(../img/fondo_bodyFin.png);
+  background-size: contain;
+  
 
 .headerContainer {
   background-color: #ffffff;
@@ -162,7 +162,7 @@ h1 {
 }
 
 .servicios {
-  background-image: url(../img/fondo_secciones.jpg);
+  background-image: url(../img/fondoSecc.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -263,7 +263,7 @@ h1 {
 }
 
 #contacto {
-  background-image: url(../img/fondo_secciones.jpg);
+  background-image: url(../img/fondoSecc.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
