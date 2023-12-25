@@ -341,10 +341,16 @@ h1 {
 }
 
 /** media queries**/
-@media screen and (max-width: 1490px) {
+@media screen and (max-width: 1710px) {
   .navItem a {
     font-size: 1rem;
   }
+
+
+  .subtitulo {
+    padding-bottom: 0;
+ }
+
 
   .volser {
     display: none;
@@ -393,6 +399,8 @@ h1 {
     max-width: 70%;
     font-size: 3rem;
     padding-top: 180px;
+    height:600px;
+   
   }
 
   .serviciosDescripcion {
