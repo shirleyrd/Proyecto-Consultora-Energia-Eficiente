@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(../img/shutterstock_2281284523.svg);
+  background-image: url(../img/fondo_body.png);
   width: 100%;
 }
 
@@ -94,7 +94,7 @@ a:active {
   font-size: 80px;
   font-weight: 800;
   color: #eeeeeef1;
-  text-shadow: black 3px 2px 3px;
+  text-shadow: black 5px 3px 4px;
 }
 
 h1 {
@@ -106,8 +106,7 @@ h1 {
 
 #inicio {
   display: flex;
-  background-image: url(../img/img_Inicio.png);
-
+  background-image: url(../img/img_Inicio_mod.png);
   height: 80vh;
   max-width: 100%;
   background-position: center;
@@ -163,7 +162,7 @@ h1 {
 }
 
 .servicios {
-  background-image: url(../img/shutterstock_2160266215.jpg);
+  background-image: url(../img/fondo_secciones.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -180,7 +179,7 @@ h1 {
   margin: auto;
   width: 600px;
   padding-left: 30px;
-  text-shadow: 2px 4px rgb(126, 189, 129);
+  text-shadow: 2px 4px rgb(3, 3, 3);
 }
 
 .serviciosContenido {
@@ -264,7 +263,7 @@ h1 {
 }
 
 #contacto {
-  background-image: url(../img/shutterstock_2160266215.jpg);
+  background-image: url(../img/fondo_secciones.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -376,6 +375,10 @@ h1 {
     flex-direction: column;
   }
 
+  .letrasPrincipales {
+    padding: 20px;
+  }
+
   .subtitulo {
     background-color: #3e9e66;
     justify-content: center;
@@ -388,7 +391,8 @@ h1 {
   #nosotros {
     flex-direction: column;
     max-width: 70%;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    padding-top: 180px;
   }
 
   .serviciosDescripcion {
