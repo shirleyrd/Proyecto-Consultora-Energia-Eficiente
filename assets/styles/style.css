@@ -428,7 +428,7 @@ h1 {
 
 /**Tablet**/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .headerContainer {
     flex-direction: column;
     justify-content: center;
