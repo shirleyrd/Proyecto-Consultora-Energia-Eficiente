@@ -6,9 +6,7 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url(../img/fondo_bodyFin.png);
-  background-size: contain;
+
   
 
 .headerContainer {
@@ -162,7 +160,7 @@ h1 {
 }
 
 .servicios {
-  background-image: url(../img/fondoSecc.jpg);
+  background-image: url(../img/fondoSeccFin.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -263,7 +261,7 @@ h1 {
 }
 
 #contacto {
-  background-image: url(../img/fondoSecc.jpg);
+  background-image: url(../img/fondoSeccFin.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -683,7 +681,9 @@ h1 {
   }
 }
 
-@media screen and (max-width: 360px) {
+
+
+@media screen and (max-width: 364px)  {
   .navItem {
     text-align: center;
     margin: 1px;
@@ -756,4 +756,9 @@ h1 {
   .volFin {
     justify-content: end;
   }
+
+ 
+
 }
+
+
